@@ -1,0 +1,35 @@
+.footer {
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-img {
+        display: block;
+    }
+    .social-media-icons {
+        margin-left: 50px;
+    }
+    .footer-right {
+        padding-top: 25px;
+        display: flex;
+        gap: 150px;
+    }
+    .item-info {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .item-link {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%;
+        color: #454545;
+        margin-bottom: 20px;
+        transition: all 0.5s;
+    }
+    .item-link:hover {
+        color: rgb(225, 225, 2);
+    }
+}
